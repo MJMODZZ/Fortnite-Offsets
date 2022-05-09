@@ -1,5 +1,5 @@
 # Fortnite-Offsets
-# CURRENTLY OUTDATED, UPDATE SOON!!! 
+# UPDATED
 Newest Fortnite Natives (Chapter 3 Seison 2), -Updated every Update-
 
 Use this Offsets if you are too Lazy to make ur own.
