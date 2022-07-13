@@ -1,14 +1,14 @@
 #pragma once
 #include <Windows.h>
 
-// Some many Offsets shit made by MJMODZZ#4133, should be updated and work.
-// DISCORD!!!!!! https://dsc.gg/mjmodzz
+// Some many Offsets shit made by MJMODZZ#9999 (MJMODZZ#6094), should be updated and work.
+// DISCORD!!!!!! https://dsc.gg/mjservices
 
 /*
 LICENSE
 MIT License
 
-Copyright(c) 2022 MJMODZZ, https://github.com/mjmodzz, MJMODZZ#4133
+Copyright(c) 2022 MJMODZZ, https://github.com/mjmodzz, MJMODZZ#6094
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this softwareand associated documentation files(the "Software"), to deal
@@ -33,7 +33,7 @@ SOFTWARE.
 
 
 // GWORLD
-#define GWorld: 0xC640158
+#define GWorld: 0xce48238
 
 // OBJECT ARRAY
 #define UObjectArray : 0xc376110
@@ -48,10 +48,34 @@ SOFTWARE.
 #define GNames                                   : 0xc67df00;
 
 // GObject
-#define GObjects                                 : 0xc48a728;
+#define GObjects                                 : 0xcc95f38;
+
+// Get GetObjectNameByIndex
+#define GetObjectNameByIndex : 0xe0c230
 
 namespace Offsets {
-	    uintptr_t UGameViewportClient = 0x78;
+	        uintptr_t BoneArray = 0x590;
+	        uintptr_t CompToWorld = 0x240;
+	        uintptr_t GameInstance = 0x1A8;
+	        uintptr_t RootComp = 0x188;
+	        uintptr_t AcknowledgedPawn = 0x310;//LocalPawn
+	        uintptr_t RelativeLocation = 0x128;
+	        uintptr_t RelativeRotation = 0x140;
+	        uintptr_t TeamIndex = 0x1070;
+	        uintptr_t CurrentWeapon = 0x7f0; //AFortPawn
+	        uintptr_t PlayerState = 0x290;
+	        uintptr_t Mesh = 0x2F0;
+	        uintptr_t bIsDBNO = 0x74A;
+	        uintptr_t bIsDying = 0x6d8;
+	        uintptr_t ReviveFromDBNOTime = 0x4060;
+	        uintptr_t bUseGravity =  0x672;
+	        uintptr_t WeaponData  =  0x3d8;
+	        uintptr_t bAlreadySearched  =  0xfb9;
+	        uintptr_t PrimaryPickupItemEntry  =  0x2f8;
+                uintptr_t ItemDefinition = 0x18;
+	
+	        // Maybe outdated 
+	        uintptr_t UGameViewportClient = 0x78;
 		uintptr_t PersistentLevel = 0x30;
 		uintptr_t NetDriver = 0x38;
 		uintptr_t LineBatcher = 0x40;
