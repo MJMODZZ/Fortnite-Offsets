@@ -54,6 +54,16 @@ SOFTWARE.
 #define GetObjectNameByIndex : 0xe0c230
 
 namespace Offsets {
+	        uintptr_t GetPlayerViewPoint = 0x7A8
+	        uintptr_t SetControlRotation = 0x718
+	        uintptr_t GetCameraLocation = 0x7B8
+	        uintptr_t GetCameraRotation = 0x7B0
+	        uintptr_t ProcessEvent = 0x4D
+	        uintptr_t GetViewPoint = 0x2D8
+	        uintptr_t GetFOVAngle = 0x770
+	        uintptr_t LineOfSightTo = 0x728
+	        uintptr_t VirtualProtect = 0x2B8
+	        uintptr_t Post Render = 110
 	        uintptr_t BoneArray = 0x590;
 	        uintptr_t CompToWorld = 0x240;
 	        uintptr_t GameInstance = 0x1A8;
