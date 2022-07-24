@@ -44,14 +44,46 @@ SOFTWARE.
 // WORLD TO SCREEN
 #define ProjectWorldToScreen : 0x829d314
 
-// GNames
-#define GNames                                   : 0xc67df00;
 
-// GObject
-#define GObjects                                 : 0xcc95f38;
 
-// Get GetObjectNameByIndex
-#define GetObjectNameByIndex : 0xe0c230
+
+///////////////////////////////////////// GNames ///////////////////////////////////////////////////////
+// Old GNames
+// #define GNames                                   : 0xc67df00;
+
+// New GNames
+#define GNames                                   : 0xCE9BD80;
+
+///////////////////////////////////////// UWorld ///////////////////////////////////////////////////////
+#define uWorld                                   : 0xCE48238;
+
+
+////////////////////////////////////// Local Players ///////////////////////////////////////////////////
+#define LocalPlayers                            : 0x38;
+
+
+///////////////////////////////////// PlayerController /////////////////////////////////////////////////
+#define PlayerController                       : 0x30;
+
+
+///////////////////////////////////// AcknowledgedPawn /////////////////////////////////////////////////
+#define AcknowledgedPawn                      : 0x310;
+
+
+///////////////////////////////////// RootComponent /////////////////////////////////////////////////
+#define RootComponent                         : 0x188;
+
+
+///////////////////////////////////// ActorComponent /////////////////////////////////////////////////
+#define ActorComponent                        : 0x98;
+
+
+///////////////////////////////////// ActorCount /////////////////////////////////////////////////
+#define ActorCount                            : 0xA0;
+
+
+///////////////////////////////////// TeamIndex /////////////////////////////////////////////////
+#define TeamIndex                             : 0x1070;
 
 namespace Offsets {
 	        uintptr_t GetPlayerViewPoint = 0x7A8
@@ -66,7 +98,12 @@ namespace Offsets {
 	        uintptr_t Post Render = 110
 	        uintptr_t BoneArray = 0x590;
 	        uintptr_t CompToWorld = 0x240;
-	        uintptr_t GameInstance = 0x1A8;
+	
+	// Old GameInstance
+	//        uintptr_t GameInstance = 0x1A8;
+	// New GameInstance
+	        uintptr_t GameInstance = 0x1a8;
+	
 	        uintptr_t RootComp = 0x188;
 	        uintptr_t AcknowledgedPawn = 0x310;//LocalPawn
 	        uintptr_t RelativeLocation = 0x128;
